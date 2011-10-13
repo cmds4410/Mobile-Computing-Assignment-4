@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B33C4D001447729B000086C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33C4CFF1447729B000086C2 /* UIKit.framework */; };
+		B33C4D021447729B000086C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33C4D011447729B000086C2 /* Foundation.framework */; };
+		B33C4D041447729B000086C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33C4D031447729B000086C2 /* CoreGraphics.framework */; };
+		B33C4D0A1447729B000086C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B33C4D081447729B000086C2 /* InfoPlist.strings */; };
+		B33C4D0C1447729B000086C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C4D0B1447729B000086C2 /* main.m */; };
+		B33C4D101447729B000086C2 /* ConnorGraphingCalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C4D0F1447729B000086C2 /* ConnorGraphingCalculatorAppDelegate.m */; };
+		B33C4D131447729B000086C2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B33C4D111447729B000086C2 /* MainWindow.xib */; };
+		B33C4D1B1447729B000086C2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33C4D1A1447729B000086C2 /* SenTestingKit.framework */; };
+		B33C4D1C1447729B000086C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33C4CFF1447729B000086C2 /* UIKit.framework */; };
+		B33C4D1D1447729B000086C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33C4D011447729B000086C2 /* Foundation.framework */; };
+		B33C4D1E1447729B000086C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B33C4D031447729B000086C2 /* CoreGraphics.framework */; };
+		B33C4D261447729B000086C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B33C4D241447729B000086C2 /* InfoPlist.strings */; };
+		B33C4D281447729B000086C2 /* ConnorGraphingCalculatorTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B33C4D271447729B000086C2 /* ConnorGraphingCalculatorTests.h */; };
+		B33C4D2A1447729B000086C2 /* ConnorGraphingCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C4D291447729B000086C2 /* ConnorGraphingCalculatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B33C4D1F1447729B000086C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B33C4CF21447729A000086C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B33C4CFA1447729B000086C2;
+			remoteInfo = ConnorGraphingCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B33C4CFB1447729B000086C2 /* ConnorGraphingCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnorGraphingCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B33C4CFF1447729B000086C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B33C4D011447729B000086C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B33C4D031447729B000086C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B33C4D071447729B000086C2 /* ConnorGraphingCalculator-Info.plist */ = {isa = PBXFileReference; path = "ConnorGraphingCalculator-Info.plist"; sourceTree = "<group>"; };
+		B33C4D091447729B000086C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B33C4D0B1447729B000086C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B33C4D0D1447729B000086C2 /* ConnorGraphingCalculator-Prefix.pch */ = {isa = PBXFileReference; path = "ConnorGraphingCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		B33C4D0E1447729B000086C2 /* ConnorGraphingCalculatorAppDelegate.h */ = {isa = PBXFileReference; path = ConnorGraphingCalculatorAppDelegate.h; sourceTree = "<group>"; };
+		B33C4D0F1447729B000086C2 /* ConnorGraphingCalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnorGraphingCalculatorAppDelegate.m; sourceTree = "<group>"; };
+		B33C4D121447729B000086C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B33C4D191447729B000086C2 /* ConnorGraphingCalculatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnorGraphingCalculatorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B33C4D1A1447729B000086C2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B33C4D231447729B000086C2 /* ConnorGraphingCalculatorTests-Info.plist */ = {isa = PBXFileReference; path = "ConnorGraphingCalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		B33C4D251447729B000086C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B33C4D271447729B000086C2 /* ConnorGraphingCalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnorGraphingCalculatorTests.h; sourceTree = "<group>"; };
+		B33C4D291447729B000086C2 /* ConnorGraphingCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnorGraphingCalculatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B33C4CF81447729B000086C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B33C4D001447729B000086C2 /* UIKit.framework in Frameworks */,
+				B33C4D021447729B000086C2 /* Foundation.framework in Frameworks */,
+				B33C4D041447729B000086C2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B33C4D151447729B000086C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B33C4D1B1447729B000086C2 /* SenTestingKit.framework in Frameworks */,
+				B33C4D1C1447729B000086C2 /* UIKit.framework in Frameworks */,
+				B33C4D1D1447729B000086C2 /* Foundation.framework in Frameworks */,
+				B33C4D1E1447729B000086C2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B33C4CF01447729A000086C2 = {
+			isa = PBXGroup;
+			children = (
+				B33C4D051447729B000086C2 /* ConnorGraphingCalculator */,
+				B33C4D211447729B000086C2 /* ConnorGraphingCalculatorTests */,
+				B33C4CFE1447729B000086C2 /* Frameworks */,
+				B33C4CFC1447729B000086C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B33C4CFC1447729B000086C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B33C4CFB1447729B000086C2 /* ConnorGraphingCalculator.app */,
+				B33C4D191447729B000086C2 /* ConnorGraphingCalculatorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B33C4CFE1447729B000086C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B33C4CFF1447729B000086C2 /* UIKit.framework */,
+				B33C4D011447729B000086C2 /* Foundation.framework */,
+				B33C4D031447729B000086C2 /* CoreGraphics.framework */,
+				B33C4D1A1447729B000086C2 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B33C4D051447729B000086C2 /* ConnorGraphingCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				B33C4D0E1447729B000086C2 /* ConnorGraphingCalculatorAppDelegate.h */,
+				B33C4D0F1447729B000086C2 /* ConnorGraphingCalculatorAppDelegate.m */,
+				B33C4D111447729B000086C2 /* MainWindow.xib */,
+				B33C4D061447729B000086C2 /* Supporting Files */,
+			);
+			path = ConnorGraphingCalculator;
+			sourceTree = "<group>";
+		};
+		B33C4D061447729B000086C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B33C4D071447729B000086C2 /* ConnorGraphingCalculator-Info.plist */,
+				B33C4D081447729B000086C2 /* InfoPlist.strings */,
+				B33C4D0B1447729B000086C2 /* main.m */,
+				B33C4D0D1447729B000086C2 /* ConnorGraphingCalculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B33C4D211447729B000086C2 /* ConnorGraphingCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B33C4D271447729B000086C2 /* ConnorGraphingCalculatorTests.h */,
+				B33C4D291447729B000086C2 /* ConnorGraphingCalculatorTests.m */,
+				B33C4D221447729B000086C2 /* Supporting Files */,
+			);
+			path = ConnorGraphingCalculatorTests;
+			sourceTree = "<group>";
+		};
+		B33C4D221447729B000086C2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B33C4D231447729B000086C2 /* ConnorGraphingCalculatorTests-Info.plist */,
+				B33C4D241447729B000086C2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B33C4CFA1447729B000086C2 /* ConnorGraphingCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B33C4D2D1447729B000086C2 /* Build configuration list for PBXNativeTarget "ConnorGraphingCalculator" */;
+			buildPhases = (
+				B33C4CF71447729B000086C2 /* Sources */,
+				B33C4CF81447729B000086C2 /* Frameworks */,
+				B33C4CF91447729B000086C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConnorGraphingCalculator;
+			productName = ConnorGraphingCalculator;
+			productReference = B33C4CFB1447729B000086C2 /* ConnorGraphingCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B33C4D181447729B000086C2 /* ConnorGraphingCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B33C4D301447729B000086C2 /* Build configuration list for PBXNativeTarget "ConnorGraphingCalculatorTests" */;
+			buildPhases = (
+				B33C4D141447729B000086C2 /* Sources */,
+				B33C4D151447729B000086C2 /* Frameworks */,
+				B33C4D161447729B000086C2 /* Resources */,
+				B33C4D171447729B000086C2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B33C4D201447729B000086C2 /* PBXTargetDependency */,
+			);
+			name = ConnorGraphingCalculatorTests;
+			productName = ConnorGraphingCalculatorTests;
+			productReference = B33C4D191447729B000086C2 /* ConnorGraphingCalculatorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B33C4CF21447729A000086C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Bowdoin College";
+			};
+			buildConfigurationList = B33C4CF51447729A000086C2 /* Build configuration list for PBXProject "ConnorGraphingCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B33C4CF01447729A000086C2;
+			productRefGroup = B33C4CFC1447729B000086C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B33C4CFA1447729B000086C2 /* ConnorGraphingCalculator */,
+				B33C4D181447729B000086C2 /* ConnorGraphingCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B33C4CF91447729B000086C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B33C4D0A1447729B000086C2 /* InfoPlist.strings in Resources */,
+				B33C4D131447729B000086C2 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B33C4D161447729B000086C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B33C4D261447729B000086C2 /* InfoPlist.strings in Resources */,
+				B33C4D281447729B000086C2 /* ConnorGraphingCalculatorTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B33C4D171447729B000086C2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B33C4CF71447729B000086C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B33C4D0C1447729B000086C2 /* main.m in Sources */,
+				B33C4D101447729B000086C2 /* ConnorGraphingCalculatorAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B33C4D141447729B000086C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B33C4D2A1447729B000086C2 /* ConnorGraphingCalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B33C4D201447729B000086C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B33C4CFA1447729B000086C2 /* ConnorGraphingCalculator */;
+			targetProxy = B33C4D1F1447729B000086C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B33C4D081447729B000086C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B33C4D091447729B000086C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B33C4D111447729B000086C2 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B33C4D121447729B000086C2 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B33C4D241447729B000086C2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B33C4D251447729B000086C2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B33C4D2B1447729B000086C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B33C4D2C1447729B000086C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B33C4D2E1447729B000086C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConnorGraphingCalculator/ConnorGraphingCalculator-Prefix.pch";
+				INFOPLIST_FILE = "ConnorGraphingCalculator/ConnorGraphingCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B33C4D2F1447729B000086C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConnorGraphingCalculator/ConnorGraphingCalculator-Prefix.pch";
+				INFOPLIST_FILE = "ConnorGraphingCalculator/ConnorGraphingCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B33C4D311447729B000086C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ConnorGraphingCalculator.app/ConnorGraphingCalculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConnorGraphingCalculator/ConnorGraphingCalculator-Prefix.pch";
+				INFOPLIST_FILE = "ConnorGraphingCalculatorTests/ConnorGraphingCalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B33C4D321447729B000086C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ConnorGraphingCalculator.app/ConnorGraphingCalculator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConnorGraphingCalculator/ConnorGraphingCalculator-Prefix.pch";
+				INFOPLIST_FILE = "ConnorGraphingCalculatorTests/ConnorGraphingCalculatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B33C4CF51447729A000086C2 /* Build configuration list for PBXProject "ConnorGraphingCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B33C4D2B1447729B000086C2 /* Debug */,
+				B33C4D2C1447729B000086C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B33C4D2D1447729B000086C2 /* Build configuration list for PBXNativeTarget "ConnorGraphingCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B33C4D2E1447729B000086C2 /* Debug */,
+				B33C4D2F1447729B000086C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B33C4D301447729B000086C2 /* Build configuration list for PBXNativeTarget "ConnorGraphingCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B33C4D311447729B000086C2 /* Debug */,
+				B33C4D321447729B000086C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B33C4CF21447729A000086C2 /* Project object */;
+}
