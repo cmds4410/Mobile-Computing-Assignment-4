@@ -7,9 +7,10 @@
 //
 
 #import "CalculatorViewController.h"
+#import "GraphViewController.h"
 
 @implementation CalculatorViewController
-@synthesize display, memDisplay, decimal, userIsInTheMiddleOfTypingANumber;
+@synthesize display, memDisplay, decimal, userIsInTheMiddleOfTypingANumber, expression;
 - (CalculatorBrain *) brain
 {
     if (!brain) brain = [[CalculatorBrain alloc] init];
@@ -121,15 +122,30 @@
     [[self brain] performOperation:@"="];
     
     variableDictionary = [NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithDouble:4], @"varx", [NSNumber numberWithDouble:10], @"vary", [NSNumber numberWithDouble:6], @"vara", nil];
-    id expression = [brain expression];
-    [expression retain];
+    expression = [brain expression];
     NSLog(@"Dictionary: %@",variableDictionary);
     double result = [CalculatorBrain evaluateExpression:expression usingVariableValues:variableDictionary];
     [display setText:[NSString stringWithFormat:@"%g", result]];
-    //because I grabbed a copy and retained it
-    [expression release];
 }
 
+//add the graph to the navcontroller and display
+- (IBAction)graphPressed:(UIButton *)sender{
+    NSLog(@"expression: %@", [[self brain] expression]);
+    
+    GraphViewController *gvc = [[GraphViewController alloc] init];
+    expression = [[self brain] expression];
+    gvc.title = [CalculatorBrain descriptionOfExpression:expression];
+    [self.navigationController pushViewController:gvc animated:YES];
+    [gvc release];
+     
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    self.title = @"Calculator";
+    // Do any additional setup after loading the view from its nib.
+}
 - (void) dealloc
 {
     [super dealloc];

@@ -24,6 +24,9 @@
 		B33C4D3914477300000086C2 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C4D3814477300000086C2 /* CalculatorBrain.m */; };
 		B33C4D3D14477323000086C2 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C4D3B14477323000086C2 /* CalculatorViewController.m */; };
 		B33C4D3E14477323000086C2 /* CalculatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B33C4D3C14477323000086C2 /* CalculatorViewController.xib */; };
+		B33C4D461447873B000086C2 /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C4D441447873B000086C2 /* GraphViewController.m */; };
+		B33C4D471447873B000086C2 /* GraphViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B33C4D451447873B000086C2 /* GraphViewController.xib */; };
+		B33C4D4A14478914000086C2 /* AxesDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C4D4914478914000086C2 /* AxesDrawer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,11 @@
 		B33C4D3A14477323000086C2 /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
 		B33C4D3B14477323000086C2 /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
 		B33C4D3C14477323000086C2 /* CalculatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalculatorViewController.xib; sourceTree = "<group>"; };
+		B33C4D431447873B000086C2 /* GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewController.h; sourceTree = "<group>"; };
+		B33C4D441447873B000086C2 /* GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewController.m; sourceTree = "<group>"; };
+		B33C4D451447873B000086C2 /* GraphViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GraphViewController.xib; sourceTree = "<group>"; };
+		B33C4D4814478914000086C2 /* AxesDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxesDrawer.h; sourceTree = "<group>"; };
+		B33C4D4914478914000086C2 /* AxesDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxesDrawer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +135,11 @@
 				B33C4D3A14477323000086C2 /* CalculatorViewController.h */,
 				B33C4D3B14477323000086C2 /* CalculatorViewController.m */,
 				B33C4D3C14477323000086C2 /* CalculatorViewController.xib */,
+				B33C4D431447873B000086C2 /* GraphViewController.h */,
+				B33C4D441447873B000086C2 /* GraphViewController.m */,
+				B33C4D451447873B000086C2 /* GraphViewController.xib */,
+				B33C4D4814478914000086C2 /* AxesDrawer.h */,
+				B33C4D4914478914000086C2 /* AxesDrawer.m */,
 				B33C4D061447729B000086C2 /* Supporting Files */,
 			);
 			path = ConnorGraphingCalculator;
@@ -235,6 +248,7 @@
 				B33C4D0A1447729B000086C2 /* InfoPlist.strings in Resources */,
 				B33C4D131447729B000086C2 /* MainWindow.xib in Resources */,
 				B33C4D3E14477323000086C2 /* CalculatorViewController.xib in Resources */,
+				B33C4D471447873B000086C2 /* GraphViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +288,8 @@
 				B33C4D101447729B000086C2 /* ConnorGraphingCalculatorAppDelegate.m in Sources */,
 				B33C4D3914477300000086C2 /* CalculatorBrain.m in Sources */,
 				B33C4D3D14477323000086C2 /* CalculatorViewController.m in Sources */,
+				B33C4D461447873B000086C2 /* GraphViewController.m in Sources */,
+				B33C4D4A14478914000086C2 /* AxesDrawer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

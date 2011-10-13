@@ -18,6 +18,7 @@
     BOOL userIsInTheMiddleOfTypingANumber;
     NSDictionary *variableDictionary;
     IBOutlet UIImageView *imageView;
+    id expression;
     
 }
 
@@ -25,6 +26,7 @@
 @property (assign) IBOutlet UILabel *memDisplay;
 @property (assign) IBOutlet UIButton *decimal;
 @property (nonatomic) BOOL userIsInTheMiddleOfTypingANumber;
+@property (nonatomic, assign) id expression;
 
 
     - (IBAction)digitPressed:(UIButton *)sender;
@@ -37,5 +39,7 @@
     - (IBAction)varPressed:(UIButton *)sender;
     //Solve wth variable(s)!! 
     - (IBAction)solvePressed:(UIButton *)sender;
+    //GRAPH 
+    - (IBAction)graphPressed:(UIButton *)sender;
 
 @end
