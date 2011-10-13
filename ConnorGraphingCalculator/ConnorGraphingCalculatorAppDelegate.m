@@ -7,6 +7,7 @@
 //
 
 #import "ConnorGraphingCalculatorAppDelegate.h"
+#import "CalculatorViewController.h"
 
 @implementation ConnorGraphingCalculatorAppDelegate
 
@@ -15,6 +16,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    UINavigationController *navcon = [[UINavigationController alloc] init];
+    CalculatorViewController *cvc = [[CalculatorViewController alloc] init];
+    [navcon pushViewController:cvc animated:NO];
+    [cvc release];
+    [self.window addSubview:navcon.view];
     [self.window makeKeyAndVisible];
     return YES;
 }

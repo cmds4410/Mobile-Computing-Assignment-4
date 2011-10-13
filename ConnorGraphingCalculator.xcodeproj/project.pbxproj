@@ -21,6 +21,9 @@
 		B33C4D261447729B000086C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B33C4D241447729B000086C2 /* InfoPlist.strings */; };
 		B33C4D281447729B000086C2 /* ConnorGraphingCalculatorTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B33C4D271447729B000086C2 /* ConnorGraphingCalculatorTests.h */; };
 		B33C4D2A1447729B000086C2 /* ConnorGraphingCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C4D291447729B000086C2 /* ConnorGraphingCalculatorTests.m */; };
+		B33C4D3914477300000086C2 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C4D3814477300000086C2 /* CalculatorBrain.m */; };
+		B33C4D3D14477323000086C2 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C4D3B14477323000086C2 /* CalculatorViewController.m */; };
+		B33C4D3E14477323000086C2 /* CalculatorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B33C4D3C14477323000086C2 /* CalculatorViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,19 +41,24 @@
 		B33C4CFF1447729B000086C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B33C4D011447729B000086C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B33C4D031447729B000086C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B33C4D071447729B000086C2 /* ConnorGraphingCalculator-Info.plist */ = {isa = PBXFileReference; path = "ConnorGraphingCalculator-Info.plist"; sourceTree = "<group>"; };
+		B33C4D071447729B000086C2 /* ConnorGraphingCalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConnorGraphingCalculator-Info.plist"; sourceTree = "<group>"; };
 		B33C4D091447729B000086C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B33C4D0B1447729B000086C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B33C4D0D1447729B000086C2 /* ConnorGraphingCalculator-Prefix.pch */ = {isa = PBXFileReference; path = "ConnorGraphingCalculator-Prefix.pch"; sourceTree = "<group>"; };
-		B33C4D0E1447729B000086C2 /* ConnorGraphingCalculatorAppDelegate.h */ = {isa = PBXFileReference; path = ConnorGraphingCalculatorAppDelegate.h; sourceTree = "<group>"; };
+		B33C4D0D1447729B000086C2 /* ConnorGraphingCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConnorGraphingCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		B33C4D0E1447729B000086C2 /* ConnorGraphingCalculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnorGraphingCalculatorAppDelegate.h; sourceTree = "<group>"; };
 		B33C4D0F1447729B000086C2 /* ConnorGraphingCalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnorGraphingCalculatorAppDelegate.m; sourceTree = "<group>"; };
 		B33C4D121447729B000086C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		B33C4D191447729B000086C2 /* ConnorGraphingCalculatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnorGraphingCalculatorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B33C4D1A1447729B000086C2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		B33C4D231447729B000086C2 /* ConnorGraphingCalculatorTests-Info.plist */ = {isa = PBXFileReference; path = "ConnorGraphingCalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		B33C4D231447729B000086C2 /* ConnorGraphingCalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConnorGraphingCalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		B33C4D251447729B000086C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B33C4D271447729B000086C2 /* ConnorGraphingCalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnorGraphingCalculatorTests.h; sourceTree = "<group>"; };
 		B33C4D291447729B000086C2 /* ConnorGraphingCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnorGraphingCalculatorTests.m; sourceTree = "<group>"; };
+		B33C4D3714477300000086C2 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		B33C4D3814477300000086C2 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
+		B33C4D3A14477323000086C2 /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		B33C4D3B14477323000086C2 /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		B33C4D3C14477323000086C2 /* CalculatorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalculatorViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,9 +119,14 @@
 		B33C4D051447729B000086C2 /* ConnorGraphingCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				B33C4D3714477300000086C2 /* CalculatorBrain.h */,
+				B33C4D3814477300000086C2 /* CalculatorBrain.m */,
 				B33C4D0E1447729B000086C2 /* ConnorGraphingCalculatorAppDelegate.h */,
 				B33C4D0F1447729B000086C2 /* ConnorGraphingCalculatorAppDelegate.m */,
 				B33C4D111447729B000086C2 /* MainWindow.xib */,
+				B33C4D3A14477323000086C2 /* CalculatorViewController.h */,
+				B33C4D3B14477323000086C2 /* CalculatorViewController.m */,
+				B33C4D3C14477323000086C2 /* CalculatorViewController.xib */,
 				B33C4D061447729B000086C2 /* Supporting Files */,
 			);
 			path = ConnorGraphingCalculator;
@@ -221,6 +234,7 @@
 			files = (
 				B33C4D0A1447729B000086C2 /* InfoPlist.strings in Resources */,
 				B33C4D131447729B000086C2 /* MainWindow.xib in Resources */,
+				B33C4D3E14477323000086C2 /* CalculatorViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +272,8 @@
 			files = (
 				B33C4D0C1447729B000086C2 /* main.m in Sources */,
 				B33C4D101447729B000086C2 /* ConnorGraphingCalculatorAppDelegate.m in Sources */,
+				B33C4D3914477300000086C2 /* CalculatorBrain.m in Sources */,
+				B33C4D3D14477323000086C2 /* CalculatorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
