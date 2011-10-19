@@ -27,6 +27,7 @@
 		B33C4D461447873B000086C2 /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C4D441447873B000086C2 /* GraphViewController.m */; };
 		B33C4D471447873B000086C2 /* GraphViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B33C4D451447873B000086C2 /* GraphViewController.xib */; };
 		B33C4D4A14478914000086C2 /* AxesDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = B33C4D4914478914000086C2 /* AxesDrawer.m */; };
+		B3D10D73144E391B00F3B4C6 /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3D10D72144E391B00F3B4C6 /* GraphView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		B33C4D451447873B000086C2 /* GraphViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GraphViewController.xib; sourceTree = "<group>"; };
 		B33C4D4814478914000086C2 /* AxesDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxesDrawer.h; sourceTree = "<group>"; };
 		B33C4D4914478914000086C2 /* AxesDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxesDrawer.m; sourceTree = "<group>"; };
+		B3D10D71144E391B00F3B4C6 /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; path = GraphView.h; sourceTree = "<group>"; };
+		B3D10D72144E391B00F3B4C6 /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,9 +140,11 @@
 				B33C4D3C14477323000086C2 /* CalculatorViewController.xib */,
 				B33C4D431447873B000086C2 /* GraphViewController.h */,
 				B33C4D441447873B000086C2 /* GraphViewController.m */,
-				B33C4D451447873B000086C2 /* GraphViewController.xib */,
+				B3D10D71144E391B00F3B4C6 /* GraphView.h */,
+				B3D10D72144E391B00F3B4C6 /* GraphView.m */,
 				B33C4D4814478914000086C2 /* AxesDrawer.h */,
 				B33C4D4914478914000086C2 /* AxesDrawer.m */,
+				B33C4D451447873B000086C2 /* GraphViewController.xib */,
 				B33C4D061447729B000086C2 /* Supporting Files */,
 			);
 			path = ConnorGraphingCalculator;
@@ -290,6 +295,7 @@
 				B33C4D3D14477323000086C2 /* CalculatorViewController.m in Sources */,
 				B33C4D461447873B000086C2 /* GraphViewController.m in Sources */,
 				B33C4D4A14478914000086C2 /* AxesDrawer.m in Sources */,
+				B3D10D73144E391B00F3B4C6 /* GraphView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +463,7 @@
 				B33C4D2F1447729B000086C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B33C4D301447729B000086C2 /* Build configuration list for PBXNativeTarget "ConnorGraphingCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				B33C4D321447729B000086C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

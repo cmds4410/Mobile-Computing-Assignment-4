@@ -98,7 +98,6 @@
     [memDisplay setText:[NSString stringWithFormat:@"0"]];
     //now that we have cleared, decimal is enabled again
     [decimal setEnabled: YES];
-    //NSLog(@"memoperation is %@", memOperation);
     [[self brain] doMem:memOperation];
     
 }
@@ -123,21 +122,26 @@
     
     variableDictionary = [NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithDouble:4], @"varx", [NSNumber numberWithDouble:10], @"vary", [NSNumber numberWithDouble:6], @"vara", nil];
     expression = [brain expression];
-    NSLog(@"Dictionary: %@",variableDictionary);
     double result = [CalculatorBrain evaluateExpression:expression usingVariableValues:variableDictionary];
     [display setText:[NSString stringWithFormat:@"%g", result]];
 }
 
 //add the graph to the navcontroller and display
 - (IBAction)graphPressed:(UIButton *)sender{
-    NSLog(@"expression: %@", [[self brain] expression]);
+    if (userIsInTheMiddleOfTypingANumber) {
+        [[self brain]setOperand:[[display text] doubleValue]];
+        [brain retain];
+        userIsInTheMiddleOfTypingANumber = NO;
+    }
+    //if user doesn't hit = before solve
+    [[self brain] performOperation:@"="];
     
     GraphViewController *gvc = [[GraphViewController alloc] init];
     expression = [[self brain] expression];
+    gvc.expression = expression;
     gvc.title = [CalculatorBrain descriptionOfExpression:expression];
     [self.navigationController pushViewController:gvc animated:YES];
     [gvc release];
-     
 }
 
 - (void)viewDidLoad

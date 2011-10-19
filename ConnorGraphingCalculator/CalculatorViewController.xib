@@ -462,7 +462,6 @@
 						<string key="NSFrame">{{20, 365}, {63, 36}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:311</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -706,7 +705,6 @@
 						<string key="NSFrame">{{236, 365}, {64, 35}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:222</string>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -771,8 +769,8 @@
 				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="910684502"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
-					<int key="NSColorSpace">2</int>
-					<bytes key="NSRGB">MC4xNDkwMTk2MTM5IDAuOTk2MDc4NDkxMiAwLjk4NDMxMzc4NgA</bytes>
+					<int key="NSColorSpace">1</int>
+					<bytes key="NSRGB">MCAwLjc0OTAxOTYyMjggMQA</bytes>
 				</object>
 				<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics"/>

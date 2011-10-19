@@ -34,7 +34,6 @@
 - (void) setOperand:(double)aDouble{
     operand = aDouble;
     [internalExpression addObject:[NSNumber numberWithDouble:operand]];
-    NSLog(@"the expression is now: %@",internalExpression);
 }
 //adds a var to the expression
 - (void) setVariableAsOperand:(NSString *)variableName{
@@ -45,7 +44,6 @@
 //called by solve button, evaluates expressions with variable(s)
 + (double)evaluateExpression:(id)anExpression usingVariableValues:(NSDictionary *)variables
 {
-    NSLog(@"Expression passed to me: %@", anExpression);
     CalculatorBrain *brain = [[CalculatorBrain alloc] init];
     for (id element in anExpression) {
         //adds digit to new operation
@@ -65,6 +63,29 @@
     return brain.operand;
     
 }
+
++ (double)evaluateExpression:(id)anExpression usingVariable:(CGFloat)variable
+{
+    CalculatorBrain *brain = [[CalculatorBrain alloc] init];
+    for (id element in anExpression) {
+        //adds digit to new operation
+        if ([element isKindOfClass:[NSNumber class]])
+            [brain setOperand:[element doubleValue]];
+        //if it's a variable, add it's true value
+        else if ([element isKindOfClass:[NSString class]])
+            if ([element rangeOfString:@"var"].location!=NSNotFound){
+                double varValue = variable;
+                [brain setOperand:varValue];
+            }
+        //otherwise it's a string so it must be an operation
+            else [brain performOperation: element];
+        
+    }
+    [brain autorelease];
+    return brain.operand;
+    
+}
+
 //returns number of vars in expression, or nil of there are none
 + (NSSet *)variablesInExpression:(id)anExpression{
     NSMutableSet *tempSet = [[NSMutableSet alloc] init];
@@ -96,7 +117,6 @@
            [tempString appendString:element];
        }
     }           
-    NSLog(@"temp string is: %@",tempString);
     return [tempString autorelease];
 }
 //for all memory functionality
@@ -104,7 +124,6 @@
     //store the display operand in a variable called 'store'
     if ([memOperation isEqual:@"sto"]) {
         store = operand;
-        //NSLog(@"%f", store);
     }
     if ([memOperation isEqual:@"mem+"]) {
         store += operand;

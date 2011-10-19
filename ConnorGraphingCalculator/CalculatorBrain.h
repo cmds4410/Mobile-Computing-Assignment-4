@@ -33,6 +33,7 @@
 - (void) setVariableAsOperand:(NSString *)variableName;
 
 + (double)evaluateExpression:(id)anExpression usingVariableValues:(NSDictionary *)variables;
++ (double)evaluateExpression:(id)anExpression usingVariable:(CGFloat)variable;
 
 + (NSSet *)variablesInExpression:(id)anExpression;
 + (NSString *)descriptionOfExpression:(id)anExpression;

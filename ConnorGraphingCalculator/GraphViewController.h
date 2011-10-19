@@ -7,7 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GraphView.h"
+#import "CalculatorBrain.h"
 
-@interface GraphViewController : UIViewController
+@interface GraphViewController : UIViewController <GraphViewDelegate>
+{
+    GraphView *graphView;
+    CGFloat graphScale;
+    NSString *zoomChange;
+    id expression;
+    
+}
+
+@property (retain) IBOutlet GraphView *graphView;
+@property (nonatomic) IBOutlet CGFloat graphScale;
+@property (retain) id expression;
+
+- (IBAction)scaleChanged:(id)sender;
 
 @end
