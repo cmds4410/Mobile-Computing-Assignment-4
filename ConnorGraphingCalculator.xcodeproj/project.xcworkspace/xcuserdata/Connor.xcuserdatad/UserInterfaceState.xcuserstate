@@ -4484,7 +4484,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>340698297.70706499</real>
+		<real>340699012.118931</real>
 		<string>{0, 552}</string>
 		<string>{417, 0}</string>
 		<string>@protocol GraphViewDelegate</string>
@@ -4774,9 +4774,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>340698297.70691901</real>
-		<string>{51, 1354}</string>
-		<string>{1379, 0}</string>
+		<real>340699012.11878198</real>
+		<string>{48, 1357}</string>
+		<string>{1130, 0}</string>
 		<string>-drawRect:</string>
 		<dict>
 			<key>$class</key>
@@ -6866,7 +6866,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>340687184.27172202</real>
+		<real>340698664.34168398</real>
 		<string>{0, 943}</string>
 		<string>{901, 0}</string>
 		<dict>
@@ -6914,7 +6914,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>340692351.96427602</real>
+		<real>340698666.875175</real>
 		<string>{0, 552}</string>
 		<string>{477, 0}</string>
 		<dict>
@@ -7058,9 +7058,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>340698273.35286301</real>
-		<string>{0, 1599}</string>
-		<string>{450, 0}</string>
+		<real>340698771.50441301</real>
+		<string>{412, 1777}</string>
+		<string>{1947, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -7202,9 +7202,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>340698077.02586699</real>
-		<string>{3798, 1624}</string>
-		<string>{5113, 0}</string>
+		<real>340698657.42497301</real>
+		<string>{3798, 1655}</string>
+		<string>{5143, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -7345,9 +7345,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>340698297.70316303</real>
-		<string>{51, 1354}</string>
-		<string>{1379, 0}</string>
+		<real>340699012.11564702</real>
+		<string>{48, 1357}</string>
+		<string>{1130, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -7584,8 +7584,8 @@
 				</dict>
 			</array>
 		</dict>
-		<real>340692350.93290401</real>
-		<string>{0, 1157}</string>
+		<real>340698671.39241803</real>
+		<string>{0, 1166}</string>
 		<string>{794, 0}</string>
 		<dict>
 			<key>$class</key>
@@ -8025,7 +8025,7 @@
 				<integer>632</integer>
 			</dict>
 			<key>NS.time</key>
-			<real>340698185.95045602</real>
+			<real>340698742.52597803</real>
 		</dict>
 		<dict>
 			<key>$classes</key>
@@ -8036,7 +8036,7 @@
 			<key>$classname</key>
 			<string>NSDate</string>
 		</dict>
-		<string>Today at 2:23 AM</string>
+		<string>Today at 2:32 AM</string>
 		<integer>234</integer>
 		<dict>
 			<key>$class</key>
@@ -8209,7 +8209,7 @@
 				<integer>648</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/Connor/Documents/Mobile%20Computing/ConnorGraphingCalculator/ConnorGraphingCalculator/GraphViewController.xib</string>
+		<string>file://localhost/Users/Connor/Documents/Mobile%20Computing/ConnorGraphingCalculator/ConnorGraphingCalculator/GraphViewController.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -8227,7 +8227,7 @@
 				<integer>650</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/Connor/Documents/Mobile%20Computing/ConnorGraphingCalculator/ConnorGraphingCalculator/CalculatorViewController.xib</string>
+		<string>file://localhost/Users/Connor/Documents/Mobile%20Computing/ConnorGraphingCalculator/ConnorGraphingCalculator/AxesDrawer.m</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -8245,7 +8245,7 @@
 				<integer>652</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/Connor/Documents/Mobile%20Computing/ConnorGraphingCalculator/ConnorGraphingCalculator/CalculatorViewController.h</string>
+		<string>file://localhost/Users/Connor/Documents/Mobile%20Computing/ConnorGraphingCalculator/ConnorGraphingCalculator/AxesDrawer.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -8263,7 +8263,7 @@
 				<integer>654</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/Connor/Documents/Mobile%20Computing/ConnorGraphingCalculator/ConnorGraphingCalculator/CalculatorViewController.m</string>
+		<string>file://localhost/Users/Connor/Documents/Mobile%20Computing/ConnorGraphingCalculator/ConnorGraphingCalculator/CalculatorViewController.h</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -8281,7 +8281,7 @@
 				<integer>656</integer>
 			</dict>
 		</dict>
-		<string>file://localhost/Users/Connor/Documents/Mobile%20Computing/ConnorGraphingCalculator/ConnorGraphingCalculator/GraphViewController.m</string>
+		<string>file://localhost/Users/Connor/Documents/Mobile%20Computing/ConnorGraphingCalculator/ConnorGraphingCalculator/CalculatorViewController.m</string>
 	</array>
 	<key>$top</key>
 	<dict>

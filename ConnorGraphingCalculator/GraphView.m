@@ -32,15 +32,15 @@
     
     //Draw the graph!
     
-    //id expression = [self.delegate expressionForGraphView:self];
     CGContextRef contextRef = UIGraphicsGetCurrentContext();
+    //set color to blue
     CGContextSetRGBFillColor(contextRef, .20, .45, .7, .7);
     for (CGFloat i = 0; i < self.bounds.size.width; i++){
-        //give x value to graphViewController and expect a y value in return
-        //pixels * points/pixel * units/point
+        //modify the x coordinates to the scale
         CGFloat xValue = (i/scale) - (midPoint.x/scale);
+        //give x value to graphViewController and expect a y value in return
         CGFloat yValue = [self.delegate yValueForGraphView:self:(xValue)];
-        
+        //draw the points with the x and y pixels
         CGContextFillEllipseInRect(contextRef, CGRectMake(i, midPoint.y - (scale * yValue), (CGFloat) 1.5, (CGFloat) 1.5));
     }
     

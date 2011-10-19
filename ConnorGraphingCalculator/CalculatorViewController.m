@@ -139,7 +139,7 @@
     GraphViewController *gvc = [[GraphViewController alloc] init];
     expression = [[self brain] expression];
     gvc.expression = expression;
-    gvc.title = [CalculatorBrain descriptionOfExpression:expression];
+    gvc.title = [[CalculatorBrain descriptionOfExpression:expression] stringByAppendingString:@"y"];
     [self.navigationController pushViewController:gvc animated:YES];
     [gvc release];
 }

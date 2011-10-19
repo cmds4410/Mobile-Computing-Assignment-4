@@ -10,7 +10,7 @@
 #define VARIABLE_PREFIX @"var"
 
 @implementation CalculatorBrain
-@synthesize operand, store, waitingOperand, waitingOperation, expression, variableDictionary;
+@synthesize operand, expression, variableDictionary;
 - (id)init
 {
     self = [super init];
@@ -64,6 +64,7 @@
     
 }
 
+//Second evaluate expression, used for graphing only
 + (double)evaluateExpression:(id)anExpression usingVariable:(CGFloat)variable
 {
     CalculatorBrain *brain = [[CalculatorBrain alloc] init];

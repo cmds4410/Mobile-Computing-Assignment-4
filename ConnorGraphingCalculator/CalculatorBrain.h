@@ -19,9 +19,6 @@
     NSNumber *operandSet;
 }
 @property (nonatomic) double operand;
-@property (nonatomic) double store;
-@property (copy) NSString *waitingOperation;
-@property (nonatomic) double waitingOperand;
 @property (readonly) id expression;
 @property (readonly, nonatomic)  NSDictionary *variableDictionary;
 
